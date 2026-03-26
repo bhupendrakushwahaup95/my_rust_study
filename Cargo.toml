@@ -4,7 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
-name = "my_rust_study"
+name = "Arithmetic_Operator"
 path = "src/Arithmetic_Operator.rs"
+
+[[bin]]
+name = "Comparison_Operator"
+path = "src/Comparison_Operator.rs"
+
 
 [dependencies]
