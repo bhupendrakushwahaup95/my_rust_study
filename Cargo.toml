@@ -5,6 +5,6 @@ edition = "2024"
 
 [[bin]]
 name = "my_rust_study"
-path = "src/Radhey.rs"
+path = "src/Arithmetic_Operator.rs"
 
 [dependencies]
