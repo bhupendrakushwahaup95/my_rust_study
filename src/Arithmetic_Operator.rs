@@ -23,10 +23,28 @@ fn main(){
 
     //5. Remainder (Modulo)
     let remainder = a % b;
-    print!("Division using variables ({} % {} ) :  {}", a , b, remainder);
+    println!("Division using variables ({} % {} ) :  {}", a , b, remainder);
 
 
-    print!("\n -----------------------------------------------------------");
+    println!("\n -----------------------------------------------------------");
     
+    //--- Phase 2: Direct Calculation inside println! macro ----------
 
+    // Direct Addition
+    println!("Direct Addition (50 + 10: {} ", 50+10);
+
+    // Direct Subtraction 
+    println!("Direct Subtraction (100-45): {} ", 100-45);
+
+    // Direct Multiplication
+    println!("Direct Multiplication (12*5): {} ", 12*5);
+
+    // Direct Division (Using floats to get decimal result)
+    println!("Direct Division (25.0/4.0): {}", 25.0/4.0);
+
+    // Direct Remainder
+    println!("Direct Remainder (17%5): {}", 17%5);
+
+    // Complex Expression : (10*2)+(20/4)-5
+    println!("Combined Calculation (10*2+20/4-5) : {}", 10*2+20/4-5);
 }
