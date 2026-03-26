@@ -27,5 +27,24 @@ fn main(){
     println!("Is {} less than or equal to 5? : {}", y, less_equal);
 
     println!("---------------------------------------------------------------");
-    
+
+    // ----- Phase 2: Direct Comparison inside println! macro --------------
+
+    // Direct Equality Check
+    println!("Direct Equality (100 == 100): {}", 100 == 100);
+
+    // Direct Inequality Check
+    println!("Direct Inequality (50 != 10 ): {}", 50 != 10);
+
+    // Direct Greater than check
+    println!("Direct Greater Than (25 > 30): {}", 25 > 30);
+
+    // Direct Less Than or Equal Check
+    println!("Direct less than or equal (10 <= 10): {}", 10 <= 10);
+
+    // Combining Arithmetic and Comparison
+    // It will first calculate (10 + 5) and then compare it with 15
+    println!("Complex Comparison (10 + 5 == 15 ): {}", (10 + 5 ) == 15 )
+
+
 }
