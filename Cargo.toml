@@ -23,4 +23,8 @@ path = "src/Assignment_Operators.rs"
 name = "Bitwise_Operators"
 path = "src/Bitwise_Operators.rs"
 
+[[bin]]
+name = "Special_Operators"
+path = "src/Special_Operators.rs"
+
 [dependencies]
