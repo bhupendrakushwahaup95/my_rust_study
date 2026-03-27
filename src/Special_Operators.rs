@@ -23,6 +23,17 @@ fn main(){
 
     println!("--------------------------------------------------------------------------");
 
+    // --- Phase 2: Direct Operations inside println! macro ---
     
+    // Direct Type Casting 
+    println!("Direct Casting (10.5 as i32): {}", 10.5 as i32);
+
+    // Using Range in a quick check (contains method)
+    println!("Does range 1..10 contain 5? : {}", (1..10).contains(&5));
+    println!("Does inclusive range 1..=5 contain 5? : {}", (1..=5).contains(&5));
+
+    // Borrowing a value directly 
+    let name = "Rust";
+    println!("Direct Reference of '{}': {:p}", name, &name);
 
 }
