@@ -37,5 +37,21 @@ fn main(){
     let right_shift = a >> 1;
     println!("Right Shift ({} >> 1): {}", a, right_shift);
 
-    println!("-----------------------------------------------------------------")
+    println!("-----------------------------------------------------------------");
+
+    // --- Phase 2: Direct Bitwise Calculation inside println! macro ---
+
+    // Direct AND operation 
+    println!("Direct Bitwise AND (10 & 7): {}", 10 & 7);
+
+    // Direct OR operation
+    println!("Direct Bitwise OR (10 | 7 ): {}", 10 | 7);
+
+    // Direct Left Shift
+    println!("Direct left shift (4 << 2): {}", 4 << 2);
+
+    // Combined Bitwise Expression
+    // (5 & 3) | (8 >> 1 ) -> 1 | 4 = 5
+    let combined = (5 & 3) | (8 >> 1);
+    println!("Combined Bitwise Result: {}", combined);
 }
