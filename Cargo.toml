@@ -15,5 +15,8 @@ path = "src/Comparison_Operator.rs"
 name = "Logical_Operators"
 path = "src/Logical_Operators.rs"
 
+[[bin]]
+name = "Assignment_Operators"
+path = "src/Assignment_Operators.rs"
 
 [dependencies]
