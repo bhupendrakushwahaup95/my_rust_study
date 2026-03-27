@@ -16,5 +16,22 @@ fn main(){
     let is_active = !is_lazy;
     println!("Is active (NOT Lazy)? : {}", is_active);
 
-    println!("-------------------------------------------------------------------")
+    println!("-------------------------------------------------------------------");
+
+    // --- Phase 2. Direct Logical Calculation inside println! Macro -------------
+ 
+    // Direct AND Check (Both must be true)
+    println!("Direct AND (10 > 5 && 5 < 8 ): {}", (10 < 5 ) && (5 < 8));
+
+    // Direct OR Check (One must be true)
+    println!("Direct OR (10 < 2 || 5 == 5): {}", (10 < 2) || (5 == 5));
+
+    // Direct NOT Check (Inverts the result)
+    println!("Direct NOT !(10 == 10): {}", !(10 == 10));
+
+    // Comlex Logical Expression 
+    // This combines Arithemtic, Comparison, and Logical operators
+    // Process: (15 == 15) AND (10 > 5) OR (false) -> true AND true OR false --> true
+    let result = (10 + 5 == 15 ) && (20 / 2 > 5) || (false);
+    println!("Combined Logical Result: {}", result);
 }
