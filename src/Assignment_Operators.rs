@@ -32,5 +32,23 @@ fn main(){
     println!("Remainder Assignment (x %= 4): {}", x);
 
     println!("--------------------------------------------------------------------");
+
+    // ---- Phase 2: Direct Assignment & Calculation inside println! ---------
+
+    // Note: Rust does not allow direct assignment inside println! like some other languages.
+    // However, we can perform and print the updated value of a mutable variable.
+
+    let mut score = 100;
+    println!("Value of score is : {}",score);
+    score += 50; // Updating score
+    println!("Updated Score after += 50 : {}", score);
+
+    score *= 2; // Doubling the score
+    println!("Updated Score after *= 2: {}", score);
+
+    // Compound Assignment with Logic 
+    let mut status = true;
+    status &= false; // Bitwise/Logical AND assignment
+    println!("Status after &= false: {}", status);
     
 }
