@@ -27,4 +27,12 @@ path = "src/Bitwise_Operators.rs"
 name = "Special_Operators"
 path = "src/Special_Operators.rs"
 
+[[bin]]
+name = "if_keyword"
+path = "src/if_keyword.rs"
+
+[[bin]]
+name = "else_keyword"
+path = "src/else_keyword.rs"
+
 [dependencies]
