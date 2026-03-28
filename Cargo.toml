@@ -35,4 +35,16 @@ path = "src/if_keyword.rs"
 name = "else_keyword"
 path = "src/else_keyword.rs"
 
+[[bin]]
+name = "match_keyword"
+path = "src/match_keyword.rs"
+
+[[bin]]
+name = "if_let_keyword"
+path = "src/if_let_keyword.rs"
+
+[[bin]]
+name = "in_keyword"
+path = "src/in_keyword.rs"
+
 [dependencies]
