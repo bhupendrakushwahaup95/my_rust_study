@@ -47,4 +47,8 @@ path = "src/if_let_keyword.rs"
 name = "in_keyword"
 path = "src/in_keyword.rs"
 
+[[bin]]
+name = "where_keyword"
+path = "src/where_keyword.rs"
+
 [dependencies]
