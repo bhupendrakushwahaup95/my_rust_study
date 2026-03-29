@@ -51,4 +51,8 @@ path = "src/in_keyword.rs"
 name = "where_keyword"
 path = "src/where_keyword.rs"
 
+[[bin]]
+name = "loop_keyword"
+path = "src/loop_keyword.rs"
+
 [dependencies]
