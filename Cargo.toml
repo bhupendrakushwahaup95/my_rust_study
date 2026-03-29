@@ -67,4 +67,8 @@ path = "src/for_keyword.rs"
 name = "break_keyword"
 path = "src/break_keyword.rs"
 
+[[bin]]
+name = "continue_keyword"
+path = "src/continue_keyword.rs"
+
 [dependencies]
