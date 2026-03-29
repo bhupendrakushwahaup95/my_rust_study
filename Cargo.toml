@@ -75,5 +75,8 @@ path = "src/continue_keyword.rs"
 name = "return_keyword"
 path = "src/return_keyword.rs"
 
+[[bin]]
+name = "label_keyword"
+path = "src/label_keyword.rs"
 
 [dependencies]
